@@ -6,9 +6,6 @@ class Solution(object):
         :rtype: List[int]
         """
         
-        for i in range(len(numbers)):
-            print numbers[i]
-            
         p1 = 0
         p2 = len(numbers) - 1
         while True:
