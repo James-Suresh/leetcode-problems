@@ -17,7 +17,3 @@ class Solution(object):
             
         return count 
 
-            
-
-        return count
-        
