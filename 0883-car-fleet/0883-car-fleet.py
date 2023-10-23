@@ -12,8 +12,6 @@ class Solution(object):
         stack=[]
         res=0
 
-        print pos_speed
-
         for i,p in enumerate(pos_speed):
             t = float(target - p[0])/float(p[1])
             print t
