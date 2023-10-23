@@ -14,7 +14,6 @@ class Solution(object):
 
         for i,p in enumerate(pos_speed):
             t = float(target - p[0])/float(p[1])
-            print t
             if stack and stack[-1]>=t:
                 continue
             else:
