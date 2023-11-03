@@ -7,26 +7,16 @@ class Solution(object):
         l=0
         r=len(nums)-1
         while(l<len(nums)):  
-            print nums
-            print l
-            print r
             if nums[l]==0:
                 nums.pop(l)
                 nums.insert(0,0)
            
-            l+=1
+            l+=1        
             
-            
-        while r>=0:  
-            print nums
-            print l
-            print r
+        while r>=0: 
             if nums[r]==2:
                 nums.pop(r)
-                nums.append(2)
-           
+                nums.append(2)      
             r-=1
             
        
-        return nums
-
