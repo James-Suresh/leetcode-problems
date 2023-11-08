@@ -6,12 +6,5 @@ class Solution(object):
         """
         output = ""
         s_arr = s.split()
-        first=True
-        for item in reversed(s_arr):
-            if(first==True):
-                first=False
-            else:
-                output+=" "
-            output+=item
-            
+        output = " ".join(reversed(s_arr))    
         return output
