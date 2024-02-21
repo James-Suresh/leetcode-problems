@@ -15,7 +15,7 @@ class Solution(object):
                 digits = [1] + digits
                 return digits
             i=i-1
-        digits[i] +=1
+        digits[i] += 1
         return digits
         
             
